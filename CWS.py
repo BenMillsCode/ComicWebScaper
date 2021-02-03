@@ -3,7 +3,7 @@ import requests, re
 from bs4 import BeautifulSoup
 
 #connect to archive page
-result = requests.get("https://www.questionablecontent.net/archive.php")
+result = requests.get("WEBSITE")
 
 #get the contents of the archive page
 soup = BeautifulSoup(result.content, "html.parser")
